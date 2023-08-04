@@ -11,7 +11,7 @@ function App() {
     destinationLocationCode,
     departureDate
   ) => {
-    await fetch("http://localhost:4000/api/v1/flight/price", {
+    await fetch("https://flight-assignment-backend.onrender.com/api/v1/flight/price", {
       method: "POST",
       crossDomain: "true",
       headers: {
